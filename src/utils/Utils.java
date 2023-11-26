@@ -10,9 +10,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.logging.Logger;
 
-/**
- * @author nguyenlm Contains helper functions
- */
+
 public class Utils {
 
 	public static DateFormat DATE_FORMATER = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
@@ -42,10 +40,9 @@ public class Utils {
 	}
 
 	/**
-	 * Return a {@link java.lang.String String} that represents the current time in the format of yyyy-MM-dd HH:mm:ss.
+	 * Return a {@link String String} that represents the current time in the format of yyyy-MM-dd HH:mm:ss.
 	 * 
-	 * @author hieudm
-	 * @return the current time as {@link java.lang.String String}.
+	 * @return the current time as {@link String String}.
 	 */
 	public static String getToday() {
 		DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -54,12 +51,11 @@ public class Utils {
 	}
 
 	/**
-	 * Return a {@link java.lang.String String} that represents the cipher text
+	 * Return a {@link String String} that represents the cipher text
 	 * encrypted by md5 algorithm.
-	 * 
-	 * @author hieudm vnpay
-	 * @param message - plain text as {@link java.lang.String String}.
-	 * @return cipher text as {@link java.lang.String String}.
+	 *
+	 * @param message - plain text as {@link String String}.
+	 * @return cipher text as {@link String String}.
 	 */
 	public static String md5(String message) {
 		String digest = null;

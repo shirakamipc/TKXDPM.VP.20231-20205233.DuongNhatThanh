@@ -1,5 +1,6 @@
-package controller;
+package test;
 
+import controller.PlaceOrderController;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -7,7 +8,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 import static org.junit.Assert.assertEquals;
 
 public class ValidateAddress {
-    private PlaceOrderController placeOrderController;
+    private controller.PlaceOrderController placeOrderController;
 
     @BeforeEach
     void setUp() throws Exception {

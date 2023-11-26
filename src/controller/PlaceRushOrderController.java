@@ -1,15 +1,12 @@
 package controller;
 
-import entity.cart.Cart;
 import entity.order.Order;
 
-import java.sql.SQLException;
 import java.util.Random;
 import java.util.logging.Logger;
 
 /**
  * This class of UC place rush order in AIMS project
- * @author Le Minh Tú
  */
 public class PlaceRushOrderController extends PlaceOrderController{
     /**

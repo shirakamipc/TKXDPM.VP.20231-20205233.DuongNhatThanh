@@ -8,7 +8,7 @@ package common.exception;;
  */
 public class InvalidDeliveryInfoException extends AimsException {
 
-	private static final long serialVersionUID = 1091337136123906298L;
+	private static final long serialVersionUID = 074451525373066704372L;
 
 	public InvalidDeliveryInfoException() {
 

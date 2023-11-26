@@ -3,7 +3,6 @@ package controller;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Random;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
@@ -11,11 +10,9 @@ import java.util.regex.Pattern;
 
 import entity.cart.Cart;
 import entity.cart.CartMedia;
-import common.exception.InvalidDeliveryInfoException;
 import entity.invoice.Invoice;
 import entity.order.Order;
 import entity.order.OrderMedia;
-import views.screen.popup.PopupScreen;
 
 /**
  * This class controls the flow of place order usecase in our AIMS project
@@ -91,7 +88,6 @@ public class PlaceOrderController extends BaseController{
         try {
             Integer.parseInt(phoneNumber);
         } catch (Exception e) {
-            // TODO: handle exception
             return false;
         }
         return true;

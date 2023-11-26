@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import utils.Configs;
 
 public class Order {
     
@@ -94,7 +93,7 @@ public class Order {
             OrderMedia om = (OrderMedia) object;
             amount += om.getPrice();
         }
-        return (int) (amount + (Configs.PERCENT_VAT/100)*amount);
+        return (int) (amount + (10/100)*amount);
     }
 
 }

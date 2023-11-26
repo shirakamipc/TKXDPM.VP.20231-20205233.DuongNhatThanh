@@ -1,4 +1,4 @@
-package entity.order;
+package entity.invoice;
 
 import entity.order.Order;
 
