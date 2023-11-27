@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="lib">
+  <library name="jdk-19">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/jdk-19.jdk" />
       <root url="jar://$PROJECT_DIR$/lib/linux/javafx-sdk-15/lib/javafx-swt.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/linux/javafx-sdk-15/lib/javafx.base.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/linux/javafx-sdk-15/lib/javafx.controls.jar!/" />
@@ -12,10 +12,9 @@
       <root url="jar://$PROJECT_DIR$/lib/linux/javafx-sdk-15/lib/javafx.web.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="file://$PROJECT_DIR$/lib" />
-    </SOURCES>
-    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
-    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" type="SOURCES" />
+    <SOURCES />
+    <excluded>
+      <root url="jar:///Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar!/" />
+    </excluded>
   </library>
 </component>

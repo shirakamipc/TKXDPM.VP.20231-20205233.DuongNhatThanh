@@ -3,7 +3,9 @@ package controller;
 import entity.order.Order;
 
 import java.util.Random;
+import java.util.HashMap;
 import java.util.logging.Logger;
+import entity.shipping.Shipment;
 
 /**
  * This class of UC place rush order in AIMS project
@@ -27,4 +29,11 @@ public class PlaceRushOrderController extends PlaceOrderController{
         LOGGER.info("Order Amount: " + order.getAmount() + " -- Shipping Fees: " + fees);
         return fees;
     }
+
+    public static void validatePlaceRushOrderData(HashMap<String, String> deliveryData, int typeDelivery) {
+        if (typeDelivery == utils.Configs.PLACE_RUSH_ORDER) {
+            Shipment shipment = new Shipment();
+        }
+    }
+
 }
